@@ -1,0 +1,40 @@
+#__modal__container{
+    z-index: 99999;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #73737360;
+  }
+  #__modal__{
+    border: 1px solid;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+  }
+  #__modal_header{
+    height: 45px;
+    padding: 0;
+    /* border-bottom: 1px solid #7e7e7e; */
+  }
+  #__modal_footer{
+    border-top: 1px solid #7e7e7e;
+    user-select: none;
+  }
+  #__modal_content{
+    user-select: none;
+  }
+  #__btns__{
+    outline: none;
+    border: 1px solid;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  #__close_btn_{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  

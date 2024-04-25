@@ -2,10 +2,10 @@
 import './globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import { useState,createContext, useEffect } from "react"
-import { makeStore } from "@/lib/store";
-import { useRef } from "react";
-import { Provider } from "react-redux";
-import { getTheme, senDtheme } from '@/lib/services/themeService';
+import { makeStore } from '@/lib/store'
+import { useRef } from "react"
+import { Provider } from "react-redux"
+import { getTheme,senDtheme } from '@/lib/services/themeService'
 
 export const themeContext=createContext();
 
